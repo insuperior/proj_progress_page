@@ -1,16 +1,24 @@
 import React from 'react';
+import proposal from '../assets/Project_Proposal.pdf';
 
 const Documentation = () => {
     return (
         <section id="documentation">
             <h2 id="sub-title">Documentation</h2>
-            <p>This section contains all the necessary documentation for the project.</p>
-            <ul>
-                <li>Getting Started</li>
-                <li>API Reference</li>
-                <li>Usage Examples</li>
-                <li>Contribution Guidelines</li>
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Download Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project Proposal</td>
+                        <td><a href={proposal} download="CCRP_Project_Proposal.pdf">Download PDF</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     );
 };

@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', 'Lato', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 nav {
-    background-color: #082cfc;
+    background-color: #003080;
     color: white;
     padding: 10px;
     position: fixed;
@@ -28,7 +28,7 @@ nav button:hover {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 60px 50px;
     min-height: 20vh;
     scroll-margin-top: 60px; /* Adjust for fixed nav */
 }
@@ -81,13 +81,13 @@ tr:hover {
 }
 
 #progress {
-    background-color: #d8d8d8;
+    background-color: #f4f4f4;
 }
 
 #documentation {
-    background-color: #d0d0d0;
+    background-color: #e2e2e2;
 }
 
 #team {
-    background-color: #b8b8b8;
+    background-color: #f4f4f4;
 }
