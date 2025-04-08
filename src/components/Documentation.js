@@ -1,5 +1,6 @@
 import React from 'react';
 import proposal from '../assets/Project_Proposal.pdf';
+import progress1 from '../assets/Project_Progress_Update_1.pdf';
 
 const Documentation = () => {
     return (
@@ -16,6 +17,10 @@ const Documentation = () => {
                     <tr>
                         <td>Project Proposal</td>
                         <td><a href={proposal} download="CCRP_Project_Proposal.pdf">Download PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Progress Update 1 (April)</td>
+                        <td><a href={progress1} download="CCRP_Progress_Update_1.pdf">Download PDF</a></td>
                     </tr>
                 </tbody>
             </table>

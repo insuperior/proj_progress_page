@@ -22,42 +22,54 @@ const Progress = () => {
         },
         { 
             id: 4, 
-            task: 'Development\n- NLP Engine\n- Machine learning model training\n- Incident severity classification model', 
+            task: 'Development\n- Model preparation: Incident severity classification model', 
             completionTime: '30 April 2025', 
             status: 'Pending' 
         },
         { 
             id: 5, 
-            task: 'Development\n- IPFS integration\n- Encryption and data security controls\n- Report generation function\n- Review and feedback function\n- Connect to provided AI chatbot', 
+            task: 'Development\n- Further enhancing functionality of website and report generation functions.', 
             completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
             status: 'Pending' 
         },
         { 
             id: 6, 
-            task: 'Report\n- Interim Report preparation including\n  - Entire project processes\n  - Challenges and solutions\n  - Testing results analysis\n  - Future work and enhancements', 
+            task: 'Development\n- Evaluation of pre-reporting evaluation framework.', 
             completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
             status: 'Pending' 
         },
         { 
             id: 7, 
+            task: 'Development\n- Exploring practicality of additional features including Chatbot and IPFS.', 
+            completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
+            status: 'Pending' 
+        },
+        { 
+            id: 8, 
+            task: 'Report\n- Interim Report preparation including\n  - Entire project processes\n  - Challenges and solutions\n  - Testing results analysis\n  - Future work and enhancements', 
+            completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
+            status: 'Pending' 
+        },
+        { 
+            id: 9, 
             task: 'Testing & Evaluation\n- Testing such as User acceptance testing (UAT)\n- Defined new task list after the UAT', 
             completionTime: '16 June 2025', 
             status: 'Pending' 
         },
         { 
-            id: 8, 
+            id: 10, 
             task: 'Testing & Evaluation\n- Necessary adjustments to address the issues found from the testing\n- AI chatbot accuracy and reliability fine-tune\n- Any adjustments on the models', 
             completionTime: '7 July 2025 (Project Progress Updates 4)', 
             status: 'Pending' 
         },
         { 
-            id: 9, 
+            id: 11, 
             task: 'Report\n- Final Report preparation\n- Project Website', 
             completionTime: '15 July 2025', 
             status: 'Pending' 
         },
         { 
-            id: 10, 
+            id: 12, 
             task: 'Report\n- Presentation preparation', 
             completionTime: 'End of July 2025', 
             status: 'Pending' 
