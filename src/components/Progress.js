@@ -24,31 +24,31 @@ const Progress = () => {
             id: 4, 
             task: 'Development\n- Model preparation: Incident severity classification model', 
             completionTime: '30 April 2025', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 5, 
             task: 'Development\n- Further enhancing functionality of website and report generation functions.', 
             completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 6, 
             task: 'Development\n- Evaluation of pre-reporting evaluation framework.', 
             completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 7, 
             task: 'Development\n- Exploring practicality of additional features including Chatbot and IPFS.', 
             completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 8, 
             task: 'Report\n- Interim Report preparation including\n  - Entire project processes\n  - Challenges and solutions\n  - Testing results analysis\n  - Future work and enhancements', 
             completionTime: '31 May 2025 (Submission deadline for Interim Report and presentation)', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 9, 

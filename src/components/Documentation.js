@@ -2,6 +2,8 @@ import React from 'react';
 import proposal from '../assets/Project_Proposal.pdf';
 import progress1 from '../assets/Project_Progress_Update_1.pdf';
 import progress2 from '../assets/Project_Progress_Update_2.pdf';
+import interim_report from '../assets/Interim_Report.pdf';
+import interim_report_PPT from '../assets/Interim_Report_PPT.pptx';
 
 const Documentation = () => {
     return (
@@ -26,6 +28,14 @@ const Documentation = () => {
                     <tr>
                         <td>Progress Update 2 (May)</td>
                         <td><a href={progress2} download="CCRP_Progress_Update_2.pdf">Download PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Interim Report</td>
+                        <td><a href={interim_report} download="CCRP_Interim_Report.pdf">Download PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Interim Report PPT</td>
+                        <td><a href={interim_report_PPT} download="CCRP_Interim_Report.pptx">Download PPT</a></td>
                     </tr>
                 </tbody>
             </table>
