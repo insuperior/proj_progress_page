@@ -52,9 +52,9 @@ const Progress = () => {
         },
         { 
             id: 9, 
-            task: 'Testing & Evaluation\n- Testing such as User acceptance testing (UAT)\n- Defined new task list after the UAT', 
+            task: 'Development\n- development of extra features: LLM advisor, LLM input assistance, and export/import of incident data', 
             completionTime: '16 June 2025', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 10, 
