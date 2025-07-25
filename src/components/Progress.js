@@ -60,19 +60,19 @@ const Progress = () => {
             id: 10, 
             task: 'Testing & Evaluation\n- Necessary adjustments to address the issues found from the testing\n- AI chatbot accuracy and reliability fine-tune\n- Any adjustments on the models', 
             completionTime: '7 July 2025 (Project Progress Updates 4)', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 11, 
             task: 'Report\n- Final Report preparation\n- Project Website', 
             completionTime: '15 July 2025', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
         { 
             id: 12, 
             task: 'Report\n- Presentation preparation', 
             completionTime: 'End of July 2025', 
-            status: 'Pending' 
+            status: 'Completed' 
         },
     ];
 

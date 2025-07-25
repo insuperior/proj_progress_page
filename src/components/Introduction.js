@@ -7,38 +7,20 @@ const Introduction = () => {
                 Introduction
             </h2>
             <p>
-                <strong>Background:</strong> 
-                Hong Kong faces increasing cybersecurity threats. According to The Hong Kong Computer Emergency Response Team Coordination Centre (HKCERT) statistics [25], common attacks including phishing attacks, ransomware, web server and app attacks and malware attacks (botnets) pose significant risks to organizations and endanger personal data, financial assets, and critical infrastructure for IT environments. This evolving threat landscape is intensified by the digitalization of more businesses in Hong Kong. With the rising trend mentioned above, organizations are expected to strengthen their cybersecurity measures in their IT environments. In addition, more regulatory requirements and guidelines will be introduced to protect the public interest and ensure the stability of various industries. An upcoming legal requirement, the Protection of Critical Infrastructure (Computer System) Bill, is expected to be fully implemented by mid-2026.
+                Our project focuses on streamlining cybersecurity incident reporting and compliance in Hong Kong using a centralized platform. The primary objectives of our project are to develop a user-friendly platform that evaluates the nature and overall criticality of incidents, provides clear guidance on Hong Kong’s regulatory requirements, generates compliant reports, and securely stores these reports for future reference by regulators, hoping to improve the efficiency and accuracy of incident management processes while ensuring alignment with local regulatory standards.
             </p>
             <p>
-                <strong>Problem Statement and Motivation:</strong> 
-                Organizations in Hong Kong face considerable challenges in cyber incident handling, including addressing complex regulatory expectations, determining incident severity, and preparing incident reporting materials due to limited resources such as experience, knowledge, and expertise. Cybersecurity threats are becoming more sophisticated, further complicating these challenges. These problems cause delays and operational disruptions, highlighting the need for an integrated platform to streamline and reduce the time spent on the workflow and ensure consistency in cybersecurity compliance and reporting. Unlike traditional incident reporting tracking, this project is empowered by cutting-edge technologies, including NLP, AI, and machine learning, to integrate regulatory requirements, severity classification, and standardized incident reporting into a single platform. Additionally, the application of a decentralized file system (IPFS) ensures tamper-proof and transparent audit trails for cybersecurity incidents. This project will significantly enhance cybersecurity compliance, reduce incident reporting inefficiencies, and improve data management of incident cases for businesses.
+                The scope of our investigation covers the review of (1) current and upcoming regulatory requirements for cybersecurity incident reporting in Hong Kong, (2) the design of the framework in evaluating the incident, (3) providing users with a recommendation on whether to make a report to the relevant regulators through our platform and (4) AI-powered advices on cybersecurity incident handling and management. Our platform is tailored to the needs of organizations in sectors with diverse reporting obligations. Our research is guided by both local and international standards, focusing on how best to support users in determining whether and how to make a report to the relevant authorities and manage cybersecurity incidents efficiently.
             </p>
             <p>
-                <strong>Objective and Expected Deliverables:</strong> 
-                This project aims to design and develop an intelligent, AI-driven, and decentralized cybersecurity management solution, tentatively named “Cybersecurity Compliance and Reporting Platform,” to assist organizations in Hong Kong with:
+                The methodology involves conducting extensive research on Hong Kong’s regulatory framework, analysing current challenges in incident reporting, utilizing development techniques to create and refine the platform, which consists of (1) regulatory guidance and advice sections, (2) incident reporting form, (3) incident evaluation and report generation function and (4) incident storage database.
             </p>
-            <ul>
-                <li>
-                    <strong>Incident Severity Classification:</strong> 
-                    The platform features an AI chatbot that helps users classify the severity of cybersecurity incidents and provides real-time regulatory guidance to ensure consistency in incident severity determination.
-                </li>
-                <li>
-                    <strong>AI-Powered Incident Reporting:</strong> 
-                    It allows users to input key details and instantly create standardized reports for submission to the appropriate government departments for reporting. During the incident case input stage, reviewers can always provide comments and request clarifications quickly, making the reporting process smoother and more efficient. The report generation function enables users to generate incident reports with standardized and clear formats for both external and internal reporting.
-                </li>
-                <li>
-                    <strong>Secure Data Storage & Encryption:</strong> 
-                    The platform ensures secure and tamper-proof data storage using IPFS (Inter-Planetary File System), making all records immutable and highly available. Strict access controls and RSA encryption protect incident reports, ensuring that only authorized entities can access sensitive information. This approach guarantees data confidentiality, integrity, and compliance with cybersecurity regulations.
-                </li>
-                <li>
-                    <strong>Regulatory Compliance & Knowledge Management:</strong> 
-                    The regulatory dashboard keeps organizations updated on the latest cybersecurity laws and compliance requirements. The knowledge base is regularly updated to reflect new regulations, reducing the risk of noncompliance. The platform also integrates AI-powered search (RAG framework), which retrieves and provides the most up-to-date regulatory information when users seek compliance guidance. This ensures accurate and reliable recommendations for cybersecurity reporting.
-                </li>
-                <li>
-                    <strong>Streamlined Compliance & Efficiency:</strong> The platform serves as an all-in-one compliance tool, combining incident classification, reporting, and regulatory tracking in one place. By automating these processes, it helps organizations save time, reduce manual effort, and minimize errors in cybersecurity incident reporting. The system’s structured workflow ensures faster response times, greater accuracy, and improved regulatory compliance, making it a practical solution for managing cybersecurity risks.
-                </li>
-            </ul>
+            <p>
+                Through this project, we have delivered a fully functional platform that simplifies and standardizes incident reporting, reduces errors, and enhances compliance with local regulations. Ultimately, our purpose is to help organizations save time and resources while improving regulatory transparency and accountability across Hong Kong’s most critical industries. 
+            </p>
+            <p>
+                This report begins with an Introduction that outlines the project’s objectives and context. The Analysis of Problem section reviews the current cyber risk landscape, relevant regulatory frameworks, and the need for improved incident reporting in Hong Kong. Methodology, Design, and Construction describes the research process, system design, and technical development of the platform. Evaluation and Testing presents the results of platform performance, user testing, and model benchmarking. Core Platform Features details the main functionalities available to users. Challenges and Solutions discusses the key difficulties encountered during development and the strategies used to address them. The report concludes with a summary of outcomes and recommendations for further work, followed by Appendices and a Reference list.
+            </p>
         </section>
     );
 };

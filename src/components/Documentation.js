@@ -3,8 +3,11 @@ import proposal from '../assets/Project_Proposal.pdf';
 import progress1 from '../assets/Project_Progress_Update_1.pdf';
 import progress2 from '../assets/Project_Progress_Update_2.pdf';
 import progress3 from '../assets/Project_Progress_Update_3.pdf';
+import progress4 from '../assets/Project_Progress_Update_4.pdf';
 import interim_report from '../assets/Interim_Report.pdf';
 import interim_report_PPT from '../assets/Interim_Report_PPT.pptx';
+import final_report from '../assets/Final_Report.pdf';
+import final_report_PPT from '../assets/Final_Report_PPT.pptx';
 
 const Documentation = () => {
     return (
@@ -41,6 +44,18 @@ const Documentation = () => {
                     <tr>
                         <td>Progress Update 3 (June)</td>
                         <td><a href={progress3} download="CCRP_Progress_Update_3.pdf">Download PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Progress Update 4 (July)</td>
+                        <td><a href={progress4} download="CCRP_Progress_Update_4.pdf">Download PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Final Report</td>
+                        <td><a href={final_report} download="CCRP_Final_Report.pdf">Download PDF</a></td>
+                    </tr>
+                    <tr>
+                        <td>Final Report PPT</td>
+                        <td><a href={final_report_PPT} download="CCRP_Final_Report.pptx">Download PPT</a></td>
                     </tr>
                 </tbody>
             </table>
