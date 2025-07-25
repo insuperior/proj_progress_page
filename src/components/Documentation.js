@@ -7,7 +7,7 @@ import progress4 from '../assets/Project_Progress_Update_4.pdf';
 import interim_report from '../assets/Interim_Report.pdf';
 import interim_report_PPT from '../assets/Interim_Report_PPT.pptx';
 import final_report from '../assets/Final_Report.pdf';
-import final_report_PPT from '../assets/Final_Report_PPT.pptx';
+import final_report_PPT from '../assets/Final_Report_PPT.pdf';
 
 const Documentation = () => {
     return (
@@ -55,7 +55,7 @@ const Documentation = () => {
                     </tr>
                     <tr>
                         <td>Final Report PPT</td>
-                        <td><a href={final_report_PPT} download="CCRP_Final_Report.pptx">Download PPT</a></td>
+                        <td><a href={final_report_PPT} download="CCRP_Final_Report.pdf">Download PDF</a></td>
                     </tr>
                 </tbody>
             </table>
